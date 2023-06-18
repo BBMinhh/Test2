@@ -1,0 +1,140 @@
+
+
+* {
+  padding: auto;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.navbar{
+  width: 100%;
+  height: 10vh;
+  z-index: 9999;
+  position: fixed;
+
+
+}
+.navcontent{
+  background-color: #c51c0a;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.navleft{
+  height:100%;
+  width: 40%;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.navleft a{
+  text-decoration: none;
+  font-size:40px;
+  color: #ffffff;
+  margin-left: 4em;
+}
+.navright a{
+  font-size: 25px;
+  margin-right: 35px;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+a:hover{
+color: #ffff00;
+}
+ 
+.about-us-container{
+  width: 100%;
+  height: 80vh;
+  margin: auto  ;
+  display: flex;
+  text-align:center;
+}
+
+.about-us-content{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center ;   
+  justify-content: center;
+  font-size: 30px;
+}
+.details h1{
+  margin-bottom: 0.5rem;
+}
+.about-us-img{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+.about-us-img img{
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+.footer{
+  width:100%;
+  height:100%;
+}
+.footer-content{
+background-color:#c51c0a;
+display:flex;
+font-size:20px;
+color:#ffffff;
+text-align:center;
+
+}
+.footer-content1{
+  width:40%;
+  height:100%;
+  
+}
+.footer-content2{
+  width:25%;
+}
+.footer-content3{
+  width:40%;
+}
+.footer-content4{
+  width:30%;
+}
+.btn-send{
+  background-color:#dc3220;
+  border-radius:10px;
+  border-color:#dc3220;
+  font-size:20px;
+  font-family: 'Lora', serif;
+}
+.information{
+  display: flex;
+  font-size:28px;
+  justify-content: space-between;
+  height: 50px;
+}
+.button {
+  width:20%;
+  text-align: center;
+  font-size: 28px;
+  cursor: pointer; 
+  border: none;
+  display: flex;
+
+}
+
+.information{
+  display: flex;
+  font-size:28px;
+  justify-content: space-between;
+  height: 50px;
+}
+.button a{
+  text-decoration: none;
+  color: #000000;
+}
